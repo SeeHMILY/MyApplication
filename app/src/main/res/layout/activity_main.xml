@@ -2,28 +2,37 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:background="#000">
+
+
+
 
     <TextView
+        android:id="@+id/text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="hahahahaah,welcome!"
+        android:textSize="30sp"
+        android:textColor="#F80000"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="不知道说点什么好，反正你看到这个奇丑无比的界面了的话，那就说明成了"
+        android:textSize="20sp"
+        android:textColor="#2196F3"
+
+        />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button"
-        android:text="BUTTON"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/text2"
-        android:text="hahahahaah"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="testtest"/>
-
+        android:text="点点看！"
+        android:textColor="#FF5722"
+        android:textSize="20sp"/>
 </LinearLayout>

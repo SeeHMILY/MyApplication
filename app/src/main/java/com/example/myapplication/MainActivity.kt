@@ -28,16 +28,8 @@ class MainActivity : AppCompatActivity() {
         val intent=Intent(this,Main2Activity::class.java)
 
         button.setOnClickListener {
-            Toast.makeText(this,"dada",Toast.LENGTH_SHORT).show()
-            startActivity(intent)
+            Toast.makeText(this,"你手机坏了！！！",Toast.LENGTH_LONG).show()
+            finish()
         }
-
-
-
-
-    }
-
-    fun test(){
-        println("test!")
     }
 }
